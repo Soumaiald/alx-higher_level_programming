@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-def isupper(c):
-    if ord(c) in range(65, 91):
-        return True
-    else:
-        return False
+def uppercase(val):
+    res = list(val)
+    for i in range(len(res)):
+        if ord(res[i]) in range(97, 123):
+            res[i] = chr(ord(res[i]) - 32)
+    print(''.join(res))
