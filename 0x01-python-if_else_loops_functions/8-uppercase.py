@@ -4,4 +4,4 @@ def uppercase(val):
     for i in range(len(res)):
         if ord(res[i]) in range(97, 123):
             res[i] = chr(ord(res[i]) - 32)
-    print(''.join(res))
+    print("{}".format(''.join(res)))
