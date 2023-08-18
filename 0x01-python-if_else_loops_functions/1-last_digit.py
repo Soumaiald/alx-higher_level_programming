@@ -6,7 +6,7 @@ if number >= 0:
 else:
     last_num = -int(str(number)[-1])
 str1 = "Last digit of " + str(number) + " is " + str(last_num) + " and is "
-if last_num>5:
+if last_num > 5:
     print(str1 + "greater than 5")
 elif last_num == 0:
     print(str1 + "0")
